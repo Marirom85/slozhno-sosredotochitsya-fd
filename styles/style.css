@@ -126,7 +126,7 @@
 
 .header__logo {
   color: var(--header-logo-color);
-  font-family: var(--main-font-family);;
+  font-family: var(--main-font-family);
   font-weight: bold;
   font-size: var(--header-logo-size);
   line-height: 82.5%;
@@ -158,7 +158,6 @@
   gap: 50px;
   margin-block-start: 40px;
 }
-
 
 .content-section {
   /*padding: 0 var(--main-gap);*/
@@ -226,6 +225,7 @@
 .text-block__link:focus-visible {
   outline: 1px solid var(--main-text-color);
 }
+
 .causes {
   .content-section__title {
     grid-column: 1/ -1;
@@ -236,7 +236,6 @@
 
     @media (width >= 1024px) {
       grid-template-columns: repeat(3, 1fr);
-      
       }
   }
 }
