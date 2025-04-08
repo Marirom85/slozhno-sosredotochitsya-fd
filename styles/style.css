@@ -52,6 +52,11 @@
 	block-size: 25px;
   inset-inline-start: 10px;
   inset-block-end: 10px;
+
+  @media (width >= 768px) {
+    inset-inline-start: 20px;
+    inset-block-end: 20px;
+  } 
 }
 
 .header_rec {
