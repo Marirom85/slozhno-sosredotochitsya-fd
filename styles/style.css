@@ -272,7 +272,7 @@ img {
 
 .gallery {
   display: grid;
-  gap: var(--main-gap);
+  gap: var(--page-gap);
 }
 
 .footer {
@@ -310,7 +310,7 @@ img {
   }
 
   .content {
-    gap: 80px; 
+    gap: 80px;
   }
 
   .content-section {
@@ -318,14 +318,15 @@ img {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
+
   .gallery {
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--main-gap);
 
     .text-block__title {
       grid-column: 1/ -1;
     }
   }
+
   .gallery_image:nth-of-type(1) {
     grid-column: span 2;
   }
