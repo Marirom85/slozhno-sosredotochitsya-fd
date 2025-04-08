@@ -162,7 +162,6 @@
 }
 
 .content-section {
-  /*padding: 0 var(--main-gap);*/
   font-size: var(--main-text-size);
   font-style: normal;
   line-height: var(--main-line-height);
@@ -233,8 +232,8 @@
 .causes {
   .content-section__title {
     grid-column: 1/ -1;
-    max-width: 236px;
   }
+  
   .text-blocks {
     grid-column: 1/ -1;
 

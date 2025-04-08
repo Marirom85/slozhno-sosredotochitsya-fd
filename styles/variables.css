@@ -19,7 +19,7 @@
   --header-logo-color: #db00ff;
   --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --footer-logo-color: #db00ff;
-  --padding: 10px;
+  --padding: 0 10px;
 }
 
 @media (width >= 768px) {
