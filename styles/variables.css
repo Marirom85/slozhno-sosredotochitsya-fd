@@ -6,6 +6,7 @@
   --main-font-family: 'IBM Plex mono', monospace;
   --accent-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --page-gap: 10px;
   --main-bg-color: #000028;
   --main-text-color: #F1B2CE;
   --nav-color: #ff0070;
@@ -24,7 +25,7 @@
 
 @media (width >= 768px) {
   :root {
-   --main-gap: 20px;
+   --page-gap: 20px;
    --padding: 20px;
    --header-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
    --footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
