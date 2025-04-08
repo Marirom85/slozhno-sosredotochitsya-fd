@@ -172,6 +172,7 @@
   justify-self: start;
   margin-bottom: 20px;
   color: var(--section-heading-color);
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
@@ -207,12 +208,13 @@
 
 .text-block__list {
   display: grid;
-  gap: 20px;
+  gap: 10px;
 }
 
 .text-block__subtitle {
   font-weight: 400;
   line-height: var(--main-line-height);
+  margin-top: 10px;
 }
 
 .text-block__link {
