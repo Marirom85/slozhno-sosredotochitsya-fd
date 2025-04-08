@@ -35,6 +35,12 @@
   border-block-start: 1px solid var(--nav-color);
   inline-size: 25px;
 	block-size: 25px;
+
+  @media (width >= 768px) {
+    top: 20px;
+    right: 20px;
+
+  }
 }
 
 .decorated-zone::after {
@@ -58,6 +64,12 @@
   font-size: var(--main-text-size);
   line-height: 25px;
   text-transform: uppercase;
+
+  @media (width >= 768px) {
+    top: 20px;
+    right: 20px;
+
+  }
 }
 
 .header_rec::after {
@@ -296,6 +308,11 @@ img {
     inline-size: 50%;
     justify-self: end;
   }
+
+  .content {
+    gap: 80px; 
+  }
+
   .content-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
