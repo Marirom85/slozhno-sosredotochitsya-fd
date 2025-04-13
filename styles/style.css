@@ -387,4 +387,7 @@ img {
     inline-size: 50%;
     justify-self: end;
   }
+  .content-section {
+    column-gap: 10px;
+  }
 }
