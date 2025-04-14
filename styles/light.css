@@ -1,7 +1,32 @@
 /*
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно */
-  :root.theme-light {
+:root.theme-light {
+  --accent-color: #ff8dcb;
+  --main-bg-color: #fff1f7;
+  --main-text-color: #353430;
+  --nav-color: #353430;
+  --nav-hover-color: rgb(50 49 45 / 0.4);
+  --main-heading-color: #353430;
+  --section-heading-color: #353430;
+  --bg-image: url(../images/cover-image-light.png);
+  --header-logo-color: #ffc2e6;
+  --footer-logo-color: #ffc2e6;
+  --shadow-color: #ff8dcb;
+
+  @media (width >= 1024px) {
+    .footer__title {
+      --shadow-color: #ff0070;
+    }
+  }
+}
+
+.theme-light .header_rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
     --accent-color: #ff8dcb;
     --main-bg-color: #fff1f7;
     --main-text-color: #353430;
@@ -12,28 +37,16 @@
     --bg-image: url(../images/cover-image-light.png);
     --header-logo-color: #ffc2e6;
     --footer-logo-color: #ffc2e6;
+    --shadow-color: #ff8dcb;
+
+    @media (width >= 1024px) {
+      .footer__title {
+        --shadow-color: #ff0070;
+      }
+    }
   }
-    
-  .theme-light .header_rec {
+
+  .header_rec {
     display: none;
   }
-  
-  @media (prefers-color-scheme: light) {
-    :root {
-      --accent-color: #ff8dcb;
-      --main-bg-color: #fff1f7;
-      --main-text-color: #353430;
-      --nav-color: #353430;
-      --nav-hover-color: rgb(50 49 45 / 0.4);
-      --main-heading-color: #353430;
-      --section-heading-color: #353430;
-      --bg-image: url(../images/cover-image-light.png);
-      --header-logo-color: #ffc2e6;
-      --footer-logo-color: #ffc2e6;
-      
-      }
-
-    .header_rec {
-      display: none;
-      }
-  }
+}
