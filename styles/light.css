@@ -12,6 +12,13 @@
     --bg-image: url(../images/cover-image-light.png);
     --header-logo-color: #ffc2e6;
     --footer-logo-color: #ffc2e6;
+    --shadow-color: #ff8dcb;
+
+    @media (width >= 1024px) {
+      .footer__title {
+        --shadow-color: #ff0070;
+      } 
+    }
   }
     
   .theme-light .header_rec {
@@ -30,7 +37,12 @@
       --bg-image: url(../images/cover-image-light.png);
       --header-logo-color: #ffc2e6;
       --footer-logo-color: #ffc2e6;
-      
+      --shadow-color:#ff8dcb;
+
+      @media (width >= 1024px) {
+        .footer__title {
+          --shadow-color: #ff0070;
+        } 
       }
 
     .header_rec {

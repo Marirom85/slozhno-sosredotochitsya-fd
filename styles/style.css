@@ -148,7 +148,7 @@
   font-weight: bold;
   font-size: var(--header-logo-size);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--shadow-color);
   padding-top: 2px;
 }
 .header_title {
@@ -239,7 +239,7 @@
 
 .text-block__link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 .text-block__link:hover {
@@ -306,7 +306,7 @@ img {
   font-size: var(--footer-logo-size);
   line-height: 83%;
   text-transform: lowercase;
-  text-shadow: 2px 2px 0 rgba(255, 0, 112, 1);
+  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 @media (width >= 768px) {

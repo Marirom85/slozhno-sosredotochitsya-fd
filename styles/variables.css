@@ -21,7 +21,9 @@
   --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --footer-logo-color: #db00ff;
   --padding: 0 10px;
-}
+  --shadow-color:#ff0070;
+  }
+
 
 @media (width >= 768px) {
   :root {
